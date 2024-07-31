@@ -1,0 +1,22 @@
+{
+    "Printer": {
+        "logs": [
+            "Microsoft-Windows-PrintService/Admin",
+            "Microsoft-Windows-PrintService/Operational",
+            "System",
+            "Application"
+        ],
+        "eventIDs": [
+            372, 800, 801, 802, 7031, 7034, 7036
+        ]
+    },
+    "Bitlocker": {
+        "logs": [
+            "Microsoft-Windows-BitLocker-DrivePreparationTool/Operational",
+            "Microsoft-Windows-BitLocker/BitLocker Management"
+        ],
+        "eventIDs": [
+            4122, 864, 840, 793, 817
+        ]
+    }
+}
