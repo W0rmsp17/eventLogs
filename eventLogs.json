@@ -10,7 +10,7 @@
             372, 800, 801, 802, 7031, 7034, 7036
         ],
         "keywords": [
-            "printer", "print spooler"
+            "printer", "print spooler", "print queue", "print job", "printer error"
         ],
         "timeWindow": 5
     },
@@ -24,7 +24,7 @@
             4122, 864, 840, 793, 817
         ],
         "keywords": [
-            "bitlocker", "encryption", "TPM"
+            "bitlocker", "encryption", "TPM", "bitlocker drive encryption", "key protector"
         ],
         "timeWindow": 5
     },
@@ -37,7 +37,7 @@
             7, 11, 15, 25, 51, 52, 55, 57, 1001, 1002
         ],
         "keywords": [
-            "disk", "hard drive", "I/O error", "disk failure"
+            "disk", "hard drive", "I/O error", "disk failure", "disk error", "drive error"
         ],
         "timeWindow": 5
     },
@@ -51,7 +51,7 @@
             4624, 4625, 4648, 4768, 4771, 4776, 5061
         ],
         "keywords": [
-            "authentication", "login", "failure", "access denied"
+            "authentication", "login", "failure", "access denied", "logon failure", "audit failure"
         ],
         "timeWindow": 5
     },
@@ -64,7 +64,7 @@
             1000, 1001, 2001, 2002
         ],
         "keywords": [
-            "office", "outlook", "word", "excel"
+            "office", "outlook", "word", "excel", "microsoft 365", "office 365", "crash"
         ],
         "timeWindow": 5
     },
@@ -77,7 +77,7 @@
             1, 1000, 1001, 1002, 2000, 2001
         ],
         "keywords": [
-            "teams", "chat", "meeting", "call"
+            "teams", "chat", "meeting", "call", "microsoft teams", "teams error"
         ],
         "timeWindow": 5
     },
@@ -90,7 +90,7 @@
             1000, 1001, 2001, 2002
         ],
         "keywords": [
-            "onedrive", "sync", "cloud"
+            "onedrive", "sync", "cloud", "onedrive error", "onedrive sync issue"
         ],
         "timeWindow": 5
     },
@@ -103,7 +103,7 @@
             41, 1074, 6008, 1001, 1002
         ],
         "keywords": [
-            "shutdown", "crash", "reboot", "unexpected"
+            "shutdown", "crash", "reboot", "unexpected", "unexpected shutdown", "system crash"
         ],
         "timeWindow": 10
     }
