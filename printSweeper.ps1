@@ -1,36 +1,37 @@
-#Tired of scrolling thru EventViewer remotely. Put on users computer -SearchLog [thing you want to search] 
+#Copy script onto users computer 
+#Will scan
 #It will copy any issue related to that thing 
 # Event Things:
-# Bitlocker, Printer... WIll add more 
+# Bitlocker, Printer... 
+#
 
-﻿param (
+param (
     [string]$SearchLog,
-    [int]$Days = 7,  #default  value is 7 days(if not used)
-    [switch]$Verbose
+    [int]$Days = 7,  # Default value is 7 days
+    [switch]$Verbose,
+    [switch]$help
 )
 
 
 $helpMessage = @"
-Use: .\printSweeper.ps1 -SearchLog <SearchTerm> [-Days <NumberOfDays>] [-Verbose] [--help]
-exmaple: .\printSweeper.ps1 -SearchLog "Printer" -Days 3 -Verbose
+Usage: .\printSweeper.ps1 -SearchLog <SearchTerm> [-Days <NumberOfDays>] [-Verbose] [--help]
+exmaple: .\printSweeper.ps1 -SearchLog "DiskIssues" -Days 1 -Verbose
 
 Options:
-    -SearchLog <SearchTerm>    Specify the search term (e.g., "Printer", "Bitlocker").
+    -SearchLog <SearchTerm>    Specify the search term (e.g., "Printer", "Bitlocker", "DiskIssues", "Authentication", "Microsoft365Apps", "Teams", "OneDrive", "ShutdownCrash").
     -Days <NumberOfDays>       Optional. Specify the number of days to look back. Default is 7 days.
     -Verbose                   Optional. Enable verbose output.
     --help                     Display this help message.
 "@
 
 
-if ($PSCmdlet.MyInvocation.BoundParameters.ContainsKey("help")) {
+if ($help) {
     Write-Host $helpMessage
     exit
 }
 
 
 $WebFeedURL = "https://W0rmsp17.github.io/eventLogs/eventLogs.json" 
-
-
 function Get-LogDetailsFromWeb {
     param (
         [string]$URL,
@@ -40,10 +41,11 @@ function Get-LogDetailsFromWeb {
         $response = Invoke-WebRequest -Uri $URL -UseBasicParsing
         if ($response.StatusCode -eq 200) {
             $logDetails = $response.Content | ConvertFrom-Json
-            if ($logDetails.ContainsKey($SearchTerm)) {
-                return $logDetails[$SearchTerm]
+            if ($logDetails.PSObject.Properties.Name -contains $SearchTerm) {
+                return $logDetails.$SearchTerm
             } else {
                 Write-Host "No details found for search term: $SearchTerm"
+               
                 return $null
             }
         } else {
@@ -57,11 +59,14 @@ function Get-LogDetailsFromWeb {
 }
 
 
-if ($Verbose) { Write-Host "Fetching log details from web feed..." }
+if ($Verbose) { Write-Host "Fetching log details from web feed..." 
+
+}
 $logDetails = Get-LogDetailsFromWeb -URL $WebFeedURL -SearchTerm $SearchLog
 
 if (-not $logDetails) {
     Write-Host "No log details retrieved. Exiting script."
+    Write-Host $help
     exit
 }
 
@@ -71,7 +76,7 @@ $EventIDs = $logDetails.eventIDs
 if ($Verbose) { Write-Host "Log details retrieved successfully." }
 
 
-$StartDate = (Get-Date).AddDays(-$Days)
+$StartDate = (Get-Date).AddDays(-$Days)  
 $EndDate = Get-Date
 
 $events = @()
@@ -82,19 +87,22 @@ foreach ($log in $Logs) {
             LogName = $log;
             StartTime = $StartDate;
             EndTime = $EndDate
-        } | Where-Object { $_.Id -in $EventIDs }
-        if ($logEvents) {
-            $events += $logEvents
+        } -ErrorAction Stop
+
+        $filteredEvents = $logEvents | Where-Object { $_.Id -in $EventIDs }
+        if ($filteredEvents) {
+            $events += $filteredEvents
+            if ($Verbose) { Write-Host "Found $($filteredEvents.Count) events in log: $log" }
         } else {
-            if ($Verbose) { Write-Host "No events found in log: $log" }
+            if ($Verbose) { Write-Host "No matching events found in log: $log" }
         }
     } catch {
-        Write-Host "Error retrieving events from log: $log. $_"
+        Write-Host "No events found in log: $log"
     }
 }
 
 
-if ($events) {
+if ($events.Count -gt 0) {
     if ($Verbose) { Write-Host "Events found:" }
     $events | Select-Object TimeCreated, Id, LevelDisplayName, Message | Format-Table -AutoSize
 } else {
@@ -102,7 +110,7 @@ if ($events) {
 }
 
 
-$ExcelFile = "C:\Temp\${SearchLog}IssuesLog.xlsx"
+$ExcelFile = "C:\Temp\printSweeper\${SearchLog}IssuesLog.xlsx"
 
 
 function Save-ToExcel {
@@ -118,7 +126,7 @@ function Save-ToExcel {
     $Sheet = $Workbook.Worksheets.Item(1)
 
     $Headers = @("TimeCreated", "Id", "LevelDisplayName", "Message")
-    [void]$Sheet.Cells.Item(1, 1).Resize(1, $Headers.Length).Value = $Headers
+    $Sheet.Cells.Item(1, 1).Resize(1, $Headers.Length).Value = $Headers
 
     $row = 2
     foreach ($event in $Data) {
@@ -134,9 +142,9 @@ function Save-ToExcel {
     $Excel.Quit()
 }
 
-if ($events) {
+if ($events.Count -gt 0) {
     Save-ToExcel -FilePath $ExcelFile -Data $events
     Write-Host "Print issue logs have been saved to $ExcelFile"
 } else {
-    Write-Host "No print issue logs to save."
+    Write-Host "Nothing Printed, nothing to save."
 }
