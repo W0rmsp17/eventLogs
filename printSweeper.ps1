@@ -7,7 +7,7 @@
 
 param (
     [string]$SearchLog,
-    [int]$Days = 7,  # Default value is 7 days
+    [int]$Days = 7,  # Defaut value is 7 days
     [switch]$Verbose,
     [switch]$help
 )
