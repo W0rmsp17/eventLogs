@@ -7,23 +7,25 @@
 
 param (
     [string]$SearchLog,
-    [int]$Days = 7,  # Defaut value is 7 days
+    [int]$Days = 7, 
+    [string]$Level = "All",  
+    [switch]$EnableKeywords, 
     [switch]$Verbose,
+    [switch]$Debug,
     [switch]$help
 )
-
-
 $helpMessage = @"
-Usage: .\printSweeper.ps1 -SearchLog <SearchTerm> [-Days <NumberOfDays>] [-Verbose] [--help]
-exmaple: .\printSweeper.ps1 -SearchLog "DiskIssues" -Days 1 -Verbose
+Usage: .\printSweeper.ps1 -SearchLog <SearchTerm> [-Days <NumberOfDays>] [-Level <EventLevel>] [-EnableKeywords] [-Verbose] [-Debug] [--help]
 
 Options:
     -SearchLog <SearchTerm>    Specify the search term (e.g., "Printer", "Bitlocker", "DiskIssues", "Authentication", "Microsoft365Apps", "Teams", "OneDrive", "ShutdownCrash").
     -Days <NumberOfDays>       Optional. Specify the number of days to look back. Default is 7 days.
+    -Level <EventLevel>        Optional. Specify the event level (e.g., "Critical", "Warning", "Error", "Information"). Default is "All".
+    -EnableKeywords            Optional. Enable filtering based on keywords.
     -Verbose                   Optional. Enable verbose output.
+    -Debug                     Optional. Enable debug output to see input details.
     --help                     Display this help message.
 "@
-
 
 if ($help) {
     Write-Host $helpMessage
@@ -32,6 +34,8 @@ if ($help) {
 
 
 $WebFeedURL = "https://W0rmsp17.github.io/eventLogs/eventLogs.json" 
+
+
 function Get-LogDetailsFromWeb {
     param (
         [string]$URL,
@@ -45,7 +49,6 @@ function Get-LogDetailsFromWeb {
                 return $logDetails.$SearchTerm
             } else {
                 Write-Host "No details found for search term: $SearchTerm"
-               
                 return $null
             }
         } else {
@@ -59,19 +62,31 @@ function Get-LogDetailsFromWeb {
 }
 
 
-if ($Verbose) { Write-Host "Fetching log details from web feed..." 
-
+function Check-LogExists {
+    param (
+        [string]$LogName
+    )
+    try {
+        Get-WinEvent -ListLog $LogName -ErrorAction Stop
+        return $true
+    } catch {
+        return $false
+    }
 }
+
+
+if ($Verbose) { Write-Host "Fetching log details from web feed..." }
 $logDetails = Get-LogDetailsFromWeb -URL $WebFeedURL -SearchTerm $SearchLog
 
 if (-not $logDetails) {
     Write-Host "No log details retrieved. Exiting script."
-    Write-Host $help
     exit
 }
 
 $Logs = $logDetails.logs
 $EventIDs = $logDetails.eventIDs
+$Keywords = $logDetails.keywords
+$TimeWindow = $logDetails.timeWindow
 
 if ($Verbose) { Write-Host "Log details retrieved successfully." }
 
@@ -79,8 +94,34 @@ if ($Verbose) { Write-Host "Log details retrieved successfully." }
 $StartDate = (Get-Date).AddDays(-$Days)  
 $EndDate = Get-Date
 
+
+$LevelMapping = @{
+    "Critical" = 1
+    "Error" = 2
+    "Warning" = 3
+    "Information" = 4
+    "Verbose" = 5
+    "All" = 0
+}
+
+$LevelValue = $LevelMapping[$Level]
+
+if ($Debug) {
+    Write-Host "SearchLog: $SearchLog"
+    Write-Host "Days: $Days"
+    Write-Host "Level: $Level ($LevelValue)"
+    Write-Host "Logs: $Logs"
+    Write-Host "EventIDs: $EventIDs"
+    Write-Host "Keywords: $Keywords"
+    Write-Host "TimeWindow: $TimeWindow"
+}
+
 $events = @()
 foreach ($log in $Logs) {
+    if (-not (Check-LogExists -LogName $log)) {
+        Write-Host "Log $log does not exist on this computer."
+        continue
+    }
     if ($Verbose) { Write-Host "Checking log: $log" }
     try {
         $logEvents = Get-WinEvent -FilterHashtable @{
@@ -89,7 +130,13 @@ foreach ($log in $Logs) {
             EndTime = $EndDate
         } -ErrorAction Stop
 
-        $filteredEvents = $logEvents | Where-Object { $_.Id -in $EventIDs }
+      
+        $filteredEvents = $logEvents | Where-Object { $_.Id -in $EventIDs -and ($LevelValue -eq 0 -or $_.Level -eq $LevelValue) }
+  
+        if ($EnableKeywords -and $Keywords) {
+            $filteredEvents = $filteredEvents | Where-Object { $Keywords | ForEach-Object { $_ -match $_.Message } }
+        }
+
         if ($filteredEvents) {
             $events += $filteredEvents
             if ($Verbose) { Write-Host "Found $($filteredEvents.Count) events in log: $log" }
@@ -103,15 +150,40 @@ foreach ($log in $Logs) {
 
 
 if ($events.Count -gt 0) {
+    $relatedEvents = @()
+    foreach ($event in $events) {
+        $eventTime = $event.TimeCreated
+        foreach ($log in $Logs) {
+            if (-not (Check-LogExists -LogName $log)) {
+                Write-Host "Log $log does not exist on this computer."
+                continue
+            }
+            try {
+                $relatedLogEvents = Get-WinEvent -FilterHashtable @{
+                    LogName = $log
+                    StartTime = $eventTime.AddMinutes(-$TimeWindow)
+                    EndTime = $eventTime.AddMinutes($TimeWindow)
+                } -ErrorAction Stop
+
+                $relatedEvents += $relatedLogEvents | Where-Object { $_.LogName -ne $event.LogName }
+            } catch {
+                Write-Host "No related events found in log: $log"
+            }
+        }
+    }
+
+    $events += $relatedEvents | Select-Object -Unique
+}
+
+
+if ($events.Count -gt 0) {
     if ($Verbose) { Write-Host "Events found:" }
     $events | Select-Object TimeCreated, Id, LevelDisplayName, Message | Format-Table -AutoSize
 } else {
     Write-Host "No events found for search term '$SearchLog' in the specified date range."
 }
 
-
-$ExcelFile = "C:\Temp\printSweeper\${SearchLog}IssuesLog.xlsx"
-
+$ExcelFile = "C:\Temp\${SearchLog}IssuesLog.xlsx"
 
 function Save-ToExcel {
     param (
@@ -146,5 +218,5 @@ if ($events.Count -gt 0) {
     Save-ToExcel -FilePath $ExcelFile -Data $events
     Write-Host "Print issue logs have been saved to $ExcelFile"
 } else {
-    Write-Host "Nothing Printed, nothing to save."
+    Write-Host "No print issue logs to save."
 }
