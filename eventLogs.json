@@ -8,7 +8,11 @@
         ],
         "eventIDs": [
             372, 800, 801, 802, 7031, 7034, 7036
-        ]
+        ],
+        "keywords": [
+            "printer", "print spooler"
+        ],
+        "timeWindow": 5
     },
     "Bitlocker": {
         "logs": [
@@ -18,7 +22,11 @@
         ],
         "eventIDs": [
             4122, 864, 840, 793, 817
-        ]
+        ],
+        "keywords": [
+            "bitlocker", "encryption", "TPM"
+        ],
+        "timeWindow": 5
     },
     "DiskIssues": {
         "logs": [
@@ -27,7 +35,11 @@
         ],
         "eventIDs": [
             7, 11, 15, 25, 51, 52, 55, 57, 1001, 1002
-        ]
+        ],
+        "keywords": [
+            "disk", "hard drive", "I/O error", "disk failure"
+        ],
+        "timeWindow": 5
     },
     "Authentication": {
         "logs": [
@@ -37,7 +49,11 @@
         ],
         "eventIDs": [
             4624, 4625, 4648, 4768, 4771, 4776, 5061
-        ]
+        ],
+        "keywords": [
+            "authentication", "login", "failure", "access denied"
+        ],
+        "timeWindow": 5
     },
     "Microsoft365Apps": {
         "logs": [
@@ -46,7 +62,11 @@
         ],
         "eventIDs": [
             1000, 1001, 2001, 2002
-        ]
+        ],
+        "keywords": [
+            "office", "outlook", "word", "excel"
+        ],
+        "timeWindow": 5
     },
     "Teams": {
         "logs": [
@@ -55,7 +75,11 @@
         ],
         "eventIDs": [
             1, 1000, 1001, 1002, 2000, 2001
-        ]
+        ],
+        "keywords": [
+            "teams", "chat", "meeting", "call"
+        ],
+        "timeWindow": 5
     },
     "OneDrive": {
         "logs": [
@@ -64,7 +88,11 @@
         ],
         "eventIDs": [
             1000, 1001, 2001, 2002
-        ]
+        ],
+        "keywords": [
+            "onedrive", "sync", "cloud"
+        ],
+        "timeWindow": 5
     },
     "ShutdownCrash": {
         "logs": [
@@ -73,6 +101,10 @@
         ],
         "eventIDs": [
             41, 1074, 6008, 1001, 1002
-        ]
+        ],
+        "keywords": [
+            "shutdown", "crash", "reboot", "unexpected"
+        ],
+        "timeWindow": 10
     }
 }
