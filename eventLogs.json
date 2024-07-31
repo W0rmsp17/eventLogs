@@ -13,7 +13,8 @@
     "Bitlocker": {
         "logs": [
             "Microsoft-Windows-BitLocker-DrivePreparationTool/Operational",
-            "Microsoft-Windows-BitLocker/BitLocker Management"
+            "Microsoft-Windows-BitLocker/BitLocker Management",
+            "System"
         ],
         "eventIDs": [
             4122, 864, 840, 793, 817
