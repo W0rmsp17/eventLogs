@@ -180,7 +180,7 @@ if ($events.Count -gt 0) {
 
 if ($events.Count -gt 0) {
     if ($Verbose) { Write-Host "Events found:" }
-    $events | Select-Object TimeCreated, Id, LevelDisplayName, Message | Format-Table -AutoSize
+    $events | Select-Object TimeCreated, Id, ERTorLevel, Message | Format-Table -AutoSize
 } else {
     Write-Host "No events found for search term '$SearchLog' in the specified date range."
 }
