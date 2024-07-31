@@ -1,6 +1,11 @@
+#Tired of scrolling thru EventViewer remotely. Put on users computer -SearchLog [thing you want to search] 
+#It will copy any issue related to that thing 
+# Event Things:
+# Bitlocker, Printer... WIll add more 
+
 ﻿param (
     [string]$SearchLog,
-    [int]$Days = 7,  
+    [int]$Days = 7,  #default  value is 7 days(if not used)
     [switch]$Verbose
 )
 
