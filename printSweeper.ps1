@@ -7,13 +7,14 @@
 
 param (
     [string]$SearchLog,
-    [int]$Days = 7, 
-    [string]$Level = "All",  
-    [switch]$EnableKeywords, 
+    [int]$Days = 7,  
+    [string]$Level = "All", 
+    [switch]$EnableKeywords,  
     [switch]$Verbose,
     [switch]$Debug,
     [switch]$help
 )
+
 $helpMessage = @"
 Usage: .\printSweeper.ps1 -SearchLog <SearchTerm> [-Days <NumberOfDays>] [-Level <EventLevel>] [-EnableKeywords] [-Verbose] [-Debug] [--help]
 
@@ -27,14 +28,13 @@ Options:
     --help                     Display this help message.
 "@
 
+
 if ($help) {
     Write-Host $helpMessage
     exit
 }
 
-
-$WebFeedURL = "https://W0rmsp17.github.io/eventLogs/eventLogs.json" 
-
+$WebFeedURL = "https://W0rmsp17.github.io/eventLogs/eventLogs.json"  
 
 function Get-LogDetailsFromWeb {
     param (
@@ -91,7 +91,7 @@ $TimeWindow = $logDetails.timeWindow
 if ($Verbose) { Write-Host "Log details retrieved successfully." }
 
 
-$StartDate = (Get-Date).AddDays(-$Days)  
+$StartDate = (Get-Date).AddDays(-$Days) 
 $EndDate = Get-Date
 
 
@@ -107,9 +107,12 @@ $LevelMapping = @{
 $LevelValue = $LevelMapping[$Level]
 
 if ($Debug) {
+    Write-Host "Debug Information:"
     Write-Host "SearchLog: $SearchLog"
     Write-Host "Days: $Days"
     Write-Host "Level: $Level ($LevelValue)"
+    Write-Host "EnableKeywords: $EnableKeywords"
+    Write-Host "Verbose: $Verbose"
     Write-Host "Logs: $Logs"
     Write-Host "EventIDs: $EventIDs"
     Write-Host "Keywords: $Keywords"
@@ -130,9 +133,9 @@ foreach ($log in $Logs) {
             EndTime = $EndDate
         } -ErrorAction Stop
 
-      
+
         $filteredEvents = $logEvents | Where-Object { $_.Id -in $EventIDs -and ($LevelValue -eq 0 -or $_.Level -eq $LevelValue) }
-  
+        
         if ($EnableKeywords -and $Keywords) {
             $filteredEvents = $filteredEvents | Where-Object { $Keywords | ForEach-Object { $_ -match $_.Message } }
         }
@@ -175,7 +178,6 @@ if ($events.Count -gt 0) {
     $events += $relatedEvents | Select-Object -Unique
 }
 
-
 if ($events.Count -gt 0) {
     if ($Verbose) { Write-Host "Events found:" }
     $events | Select-Object TimeCreated, Id, LevelDisplayName, Message | Format-Table -AutoSize
@@ -183,7 +185,9 @@ if ($events.Count -gt 0) {
     Write-Host "No events found for search term '$SearchLog' in the specified date range."
 }
 
+
 $ExcelFile = "C:\Temp\${SearchLog}IssuesLog.xlsx"
+
 
 function Save-ToExcel {
     param (
