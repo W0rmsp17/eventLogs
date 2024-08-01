@@ -1,9 +1,12 @@
-#Copy script onto users computer 
-#Will scan
-#It will copy any issue related to that thing 
-# Event Things:
-# Bitlocker, Printer... 
-#
+# ========================================================
+# Script Name: printSweeper.ps1
+# Author: c
+# Date: 2024-07-27
+# Description: This script copies a PowerShell script onto
+#              a user's computer to scan for events and related event,
+#              then copies the relevant logs
+#              to a specified local directory.
+# ========================================================
 
 param (
     [string]$SearchLog,
