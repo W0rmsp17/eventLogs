@@ -7,6 +7,8 @@
 #              then copies the relevant logs
 #              to a specified local directory.
 # ========================================================
+# May require set-executionpolicy remotesigned to allow execution 
+# ========================================================
 
 param (
     [string]$SearchLog,
