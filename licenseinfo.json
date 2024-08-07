@@ -606,7 +606,7 @@
         "String ID":  "SOCIAL_ENGAGEMENT_APP_USER",
         "GUID":  "c6df1e30-1c9f-427f-907c-3d913474a1c7",
         "Service plans included":  "SOCIAL_ENGAGEMENT_APP_USER (339f4def-5ad8-4430-8d12-da5fd4c769a7)",
-        "Service plans included (friendly names)":  "Dynamics 365 AI for Market Insights – Free (339f4def-5ad8-4430-8d12-da5fd4c769a7)"
+        "Service plans included (friendly names)":  "Dynamics 365 AI for Market Insights � Free (339f4def-5ad8-4430-8d12-da5fd4c769a7)"
     },
     {
         "Product name":  null,
@@ -2286,14 +2286,14 @@
         "String ID":  "CRM_AUTO_ROUTING_ADDON",
         "GUID":  "977464c4-bfaf-4b67-b761-a9bb735a2196",
         "Service plans included":  "CRM_AUTO_ROUTING_ENGINE_ADDON (24435e4b-87d0-4d7d-8beb-63a9b1573022)",
-        "Service plans included (friendly names)":  "Field Service – Automated Routing Engine Add-On (24435e4b-87d0-4d7d-8beb-63a9b1573022)"
+        "Service plans included (friendly names)":  "Field Service � Automated Routing Engine Add-On (24435e4b-87d0-4d7d-8beb-63a9b1573022)"
     },
     {
         "Product name":  null,
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "CRM_AUTO_ROUTING_ADDON (2ba394e0-6f18-4b77-b45f-a5663bbab540)",
-        "Service plans included (friendly names)":  "Field Service – Automated Routing Engine Add-On (2ba394e0-6f18-4b77-b45f-a5663bbab540)"
+        "Service plans included (friendly names)":  "Field Service � Automated Routing Engine Add-On (2ba394e0-6f18-4b77-b45f-a5663bbab540)"
     },
     {
         "Product name":  null,
@@ -2611,7 +2611,7 @@
         "Service plans included (friendly names)":  "Microsoft Teams Audio Conferencing with dial-out to select geographies (9974d6cf-cd24-4ba2-921c-e2aa687da846)"
     },
     {
-        "Product name":  "Dynamics 365 Operations – Activity",
+        "Product name":  "Dynamics 365 Operations � Activity",
         "String ID":  "Dyn365_Operations_Activity",
         "GUID":  "b75074f1-4c54-41bf-970f-c9ac871567f5",
         "Service plans included":  "DYN365_RETAIL_Activity (f06754ec-6d72-4bf6-991c-4cb5413d9932)",
@@ -4890,7 +4890,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -5212,7 +5212,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -5786,7 +5786,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -6080,7 +6080,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -6612,7 +6612,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -7473,7 +7473,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "MIP_S_CLP1 (5136a095-5cf0-4aff-bec3-e84448b38ea5)",
-        "Service plans included (friendly names)":  "Information Protection for Office 365 – Standard (5136a095-5cf0-4aff-bec3-e84448b38ea5)"
+        "Service plans included (friendly names)":  "Information Protection for Office 365 � Standard (5136a095-5cf0-4aff-bec3-e84448b38ea5)"
     },
     {
         "Product name":  null,
@@ -10140,7 +10140,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -10462,7 +10462,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -11057,7 +11057,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -11771,7 +11771,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -12331,7 +12331,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -12926,7 +12926,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -13941,7 +13941,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -14144,7 +14144,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -14697,7 +14697,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -15243,7 +15243,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -15775,7 +15775,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -16321,7 +16321,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -16951,7 +16951,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -17532,7 +17532,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -18113,7 +18113,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -19526,8 +19526,8 @@
         "Product name":  null,
         "String ID":  null,
         "GUID":  null,
-        "Service plans included":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -20458,7 +20458,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -20934,7 +20934,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -21326,7 +21326,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -21718,7 +21718,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -22096,21 +22096,21 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "Content_Explorer (d9fa6af4-e046-4c89-9226-729a0786685d)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Premium (d9fa6af4-e046-4c89-9226-729a0786685d)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Premium (d9fa6af4-e046-4c89-9226-729a0786685d)"
     },
     {
         "Product name":  null,
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "MIP_S_CLP2 (efb0351d-3b08-4503-993d-383af8de41e3)",
-        "Service plans included (friendly names)":  "Information Protection for Office 365 – Premium (efb0351d-3b08-4503-993d-383af8de41e3)"
+        "Service plans included (friendly names)":  "Information Protection for Office 365 � Premium (efb0351d-3b08-4503-993d-383af8de41e3)"
     },
     {
         "Product name":  null,
@@ -22698,7 +22698,7 @@
         "String ID":  "POWERAPPS_VIRAL",
         "GUID":  "dcb1a3ae-b33f-4487-846a-a640262fadf4",
         "Service plans included":  "DYN365_CDS_VIRAL (17ab22cd-a0b3-4536-910a-cb6eb12696c0)",
-        "Service plans included (friendly names)":  "Common Data Service – VIRAL (17ab22cd-a0b3-4536-910a-cb6eb12696c0)"
+        "Service plans included (friendly names)":  "Common Data Service � VIRAL (17ab22cd-a0b3-4536-910a-cb6eb12696c0)"
     },
     {
         "Product name":  null,
@@ -25267,7 +25267,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "MIP_S_CLP1 (5136a095-5cf0-4aff-bec3-e84448b38ea5)",
-        "Service plans included (friendly names)":  "Information Protection for Office 365 – Standard (5136a095-5cf0-4aff-bec3-e84448b38ea5)"
+        "Service plans included (friendly names)":  "Information Protection for Office 365 � Standard (5136a095-5cf0-4aff-bec3-e84448b38ea5)"
     },
     {
         "Product name":  null,
@@ -25484,7 +25484,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "MIP_S_CLP1 (5136a095-5cf0-4aff-bec3-e84448b38ea5)",
-        "Service plans included (friendly names)":  "Information Protection for Office 365 – Standard (5136a095-5cf0-4aff-bec3-e84448b38ea5)"
+        "Service plans included (friendly names)":  "Information Protection for Office 365 � Standard (5136a095-5cf0-4aff-bec3-e84448b38ea5)"
     },
     {
         "Product name":  null,
@@ -25729,7 +25729,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -26128,7 +26128,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -27388,7 +27388,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -27605,7 +27605,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -28186,28 +28186,28 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "Content_Explorer (d9fa6af4-e046-4c89-9226-729a0786685d)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Premium (d9fa6af4-e046-4c89-9226-729a0786685d)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Premium (d9fa6af4-e046-4c89-9226-729a0786685d)"
     },
     {
         "Product name":  null,
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "MIP_S_CLP2 (efb0351d-3b08-4503-993d-383af8de41e3)",
-        "Service plans included (friendly names)":  "Information Protection for Office 365 – Premium (efb0351d-3b08-4503-993d-383af8de41e3)"
+        "Service plans included (friendly names)":  "Information Protection for Office 365 � Premium (efb0351d-3b08-4503-993d-383af8de41e3)"
     },
     {
         "Product name":  null,
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "MIP_S_CLP1 (5136a095-5cf0-4aff-bec3-e84448b38ea5)",
-        "Service plans included (friendly names)":  "Information Protection for Office 365 – Standard (5136a095-5cf0-4aff-bec3-e84448b38ea5)"
+        "Service plans included (friendly names)":  "Information Protection for Office 365 � Standard (5136a095-5cf0-4aff-bec3-e84448b38ea5)"
     },
     {
         "Product name":  null,
@@ -28592,7 +28592,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -28998,7 +28998,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -29390,7 +29390,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -30342,7 +30342,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -30510,7 +30510,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -30699,7 +30699,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -31007,7 +31007,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -31301,7 +31301,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -31574,21 +31574,21 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "MIP_S_CLP2 (efb0351d-3b08-4503-993d-383af8de41e3)",
-        "Service plans included (friendly names)":  "Information Protection for Office 365 – Premium (efb0351d-3b08-4503-993d-383af8de41e3)"
+        "Service plans included (friendly names)":  "Information Protection for Office 365 � Premium (efb0351d-3b08-4503-993d-383af8de41e3)"
     },
     {
         "Product name":  null,
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "MIP_S_CLP1 (5136a095-5cf0-4aff-bec3-e84448b38ea5)",
-        "Service plans included (friendly names)":  "Information Protection for Office 365 – Standard (5136a095-5cf0-4aff-bec3-e84448b38ea5)"
+        "Service plans included (friendly names)":  "Information Protection for Office 365 � Standard (5136a095-5cf0-4aff-bec3-e84448b38ea5)"
     },
     {
         "Product name":  null,
@@ -32144,7 +32144,7 @@
         "Service plans included (friendly names)":  "Power Automate for Power Apps per App Plan for Government (8e2c2c3d-07f6-4da7-86a9-e78cc8c2c8b9)"
     },
     {
-        "Product name":  "Power Apps per app plan (1 app or website) BD Only – GCC",
+        "Product name":  "Power Apps per app plan (1 app or website) BD Only � GCC",
         "String ID":  "Power_Apps_per_app_plan_(1_app_or_portal)_BD_Only_GCC",
         "GUID":  "816ee058-f70c-42ad-b433-d6171984ea20",
         "Service plans included":  "EXCHANGE_S_FOUNDATION (113feb6c-3fe4-4440-bddc-54d774bf0318)",
@@ -33334,7 +33334,7 @@
         "Service plans included (friendly names)":  "Flow for CCI Bots (5d798708-6473-48ad-9776-3acc301c40af)"
     },
     {
-        "Product name":  "Privacy Management – risk",
+        "Product name":  "Privacy Management � risk",
         "String ID":  "PRIVACY_MANAGEMENT_RISK",
         "GUID":  "e42bc969-759a-4820-9283-6b73085b68e6",
         "Service plans included":  "MIP_S_Exchange (cd31b152-6326-4d1b-ae1b-997b625182e6)",
@@ -36351,7 +36351,7 @@
         "Service plans included (friendly names)":  null
     },
     {
-        "Product name":  "1. Learn ",
+        "Product name":  "1. Learn�",
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  null,
@@ -36365,7 +36365,7 @@
         "Service plans included (friendly names)":  null
     },
     {
-        "Product name":  "2. Microsoft Entra ",
+        "Product name":  "2. Microsoft Entra�",
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  null,
@@ -36379,7 +36379,7 @@
         "Service plans included (friendly names)":  null
     },
     {
-        "Product name":  "3. Microsoft Entra ID ",
+        "Product name":  "3. Microsoft Entra ID�",
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  null,
@@ -36393,7 +36393,7 @@
         "Service plans included (friendly names)":  null
     },
     {
-        "Product name":  "4. Users ",
+        "Product name":  "4. Users�",
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  null,
@@ -36491,7 +36491,7 @@
         "Service plans included (friendly names)":  null
     },
     {
-        "Product name":  "When managing licenses in the Azure portal or the Microsoft 365 admin center, you see product names that look something like Office 365 E3. When you use PowerShell v1.0 cmdlets, the same product is identified using a specific but less friendly name: ENTERPRISEPACK. When using PowerShell v2.0 cmdlets or Microsoft Graph, the same product is identified using a GUID value: 6fd2c87f-b296-42f0-b197-1e91e994b900. The following table lists the most commonly used Microsoft online service products and provides their various ID values. These tables are for reference purposes in Microsoft Entra ID, part of Microsoft Entra, and are accurate only as of the date when this article was last updated. Microsoft will continue to make periodic updates to this document.",
+        "Product name":  "When�managing licenses in the Azure portal�or the�Microsoft 365 admin center, you see product names that look something like�Office 365 E3. When you use PowerShell v1.0 cmdlets, the same product is identified using a specific but less friendly name:�ENTERPRISEPACK. When using PowerShell v2.0 cmdlets or�Microsoft Graph, the same product is identified using a GUID value:�6fd2c87f-b296-42f0-b197-1e91e994b900. The following table lists the most commonly used Microsoft online service products and provides their various ID values. These tables are for reference purposes in Microsoft Entra ID, part of Microsoft Entra, and are accurate only as of the date when this article was last updated. Microsoft will continue to make periodic updates to this document.",
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  null,
@@ -36512,14 +36512,14 @@
         "Service plans included (friendly names)":  null
     },
     {
-        "Product name":  "String ID: Used by PowerShell v1.0 cmdlets when performing operations on licenses or by the skuPartNumber property of the subscribedSku Microsoft Graph API",
+        "Product name":  "String ID: Used by PowerShell v1.0 cmdlets when performing operations on licenses or by the�skuPartNumber�property of the�subscribedSku�Microsoft Graph API",
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  null,
         "Service plans included (friendly names)":  null
     },
     {
-        "Product name":  "GUID: GUID used by the skuId property of the subscribedSku Microsoft Graph API",
+        "Product name":  "GUID: GUID used by the�skuId�property of the�subscribedSku�Microsoft Graph API",
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  null,
@@ -36540,7 +36540,7 @@
         "Service plans included (friendly names)":  null
     },
     {
-        "Product name":  " Note",
+        "Product name":  "�Note",
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  null,
@@ -36561,7 +36561,7 @@
         "Service plans included (friendly names)":  null
     },
     {
-        "Product name":  "You can also download a CSV version of this table here.",
+        "Product name":  "You can also download a CSV version of this table�here.",
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  null,
@@ -37195,7 +37195,7 @@
         "String ID":  "SOCIAL_ENGAGEMENT_APP_USER",
         "GUID":  "c6df1e30-1c9f-427f-907c-3d913474a1c7",
         "Service plans included":  "SOCIAL_ENGAGEMENT_APP_USER (339f4def-5ad8-4430-8d12-da5fd4c769a7)",
-        "Service plans included (friendly names)":  "Dynamics 365 AI for Market Insights – Free (339f4def-5ad8-4430-8d12-da5fd4c769a7)"
+        "Service plans included (friendly names)":  "Dynamics 365 AI for Market Insights � Free (339f4def-5ad8-4430-8d12-da5fd4c769a7)"
     },
     {
         "Product name":  null,
@@ -38875,14 +38875,14 @@
         "String ID":  "CRM_AUTO_ROUTING_ADDON",
         "GUID":  "977464c4-bfaf-4b67-b761-a9bb735a2196",
         "Service plans included":  "CRM_AUTO_ROUTING_ENGINE_ADDON (24435e4b-87d0-4d7d-8beb-63a9b1573022)",
-        "Service plans included (friendly names)":  "Field Service – Automated Routing Engine Add-On (24435e4b-87d0-4d7d-8beb-63a9b1573022)"
+        "Service plans included (friendly names)":  "Field Service � Automated Routing Engine Add-On (24435e4b-87d0-4d7d-8beb-63a9b1573022)"
     },
     {
         "Product name":  null,
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "CRM_AUTO_ROUTING_ADDON (2ba394e0-6f18-4b77-b45f-a5663bbab540)",
-        "Service plans included (friendly names)":  "Field Service – Automated Routing Engine Add-On (2ba394e0-6f18-4b77-b45f-a5663bbab540)"
+        "Service plans included (friendly names)":  "Field Service � Automated Routing Engine Add-On (2ba394e0-6f18-4b77-b45f-a5663bbab540)"
     },
     {
         "Product name":  null,
@@ -39200,7 +39200,7 @@
         "Service plans included (friendly names)":  "Microsoft Teams Audio Conferencing with dial-out to select geographies (9974d6cf-cd24-4ba2-921c-e2aa687da846)"
     },
     {
-        "Product name":  "Dynamics 365 Operations – Activity",
+        "Product name":  "Dynamics 365 Operations � Activity",
         "String ID":  "Dyn365_Operations_Activity",
         "GUID":  "b75074f1-4c54-41bf-970f-c9ac871567f5",
         "Service plans included":  "DYN365_RETAIL_Activity (f06754ec-6d72-4bf6-991c-4cb5413d9932)",
@@ -41479,7 +41479,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -41801,7 +41801,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -42375,7 +42375,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -42669,7 +42669,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -43201,7 +43201,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -44062,7 +44062,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "MIP_S_CLP1 (5136a095-5cf0-4aff-bec3-e84448b38ea5)",
-        "Service plans included (friendly names)":  "Information Protection for Office 365 – Standard (5136a095-5cf0-4aff-bec3-e84448b38ea5)"
+        "Service plans included (friendly names)":  "Information Protection for Office 365 � Standard (5136a095-5cf0-4aff-bec3-e84448b38ea5)"
     },
     {
         "Product name":  null,
@@ -46729,7 +46729,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -47051,7 +47051,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -47646,7 +47646,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -48360,7 +48360,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -48920,7 +48920,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -49515,7 +49515,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -50530,7 +50530,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -50733,7 +50733,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -51286,7 +51286,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -51832,7 +51832,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -52364,7 +52364,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -52910,7 +52910,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -53540,7 +53540,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -54121,7 +54121,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -54702,7 +54702,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -56115,8 +56115,8 @@
         "Product name":  null,
         "String ID":  null,
         "GUID":  null,
-        "Service plans included":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -57047,7 +57047,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -57523,7 +57523,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -57915,7 +57915,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -58307,7 +58307,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -58685,21 +58685,21 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "Content_Explorer (d9fa6af4-e046-4c89-9226-729a0786685d)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Premium (d9fa6af4-e046-4c89-9226-729a0786685d)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Premium (d9fa6af4-e046-4c89-9226-729a0786685d)"
     },
     {
         "Product name":  null,
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "MIP_S_CLP2 (efb0351d-3b08-4503-993d-383af8de41e3)",
-        "Service plans included (friendly names)":  "Information Protection for Office 365 – Premium (efb0351d-3b08-4503-993d-383af8de41e3)"
+        "Service plans included (friendly names)":  "Information Protection for Office 365 � Premium (efb0351d-3b08-4503-993d-383af8de41e3)"
     },
     {
         "Product name":  null,
@@ -59287,7 +59287,7 @@
         "String ID":  "POWERAPPS_VIRAL",
         "GUID":  "dcb1a3ae-b33f-4487-846a-a640262fadf4",
         "Service plans included":  "DYN365_CDS_VIRAL (17ab22cd-a0b3-4536-910a-cb6eb12696c0)",
-        "Service plans included (friendly names)":  "Common Data Service – VIRAL (17ab22cd-a0b3-4536-910a-cb6eb12696c0)"
+        "Service plans included (friendly names)":  "Common Data Service � VIRAL (17ab22cd-a0b3-4536-910a-cb6eb12696c0)"
     },
     {
         "Product name":  null,
@@ -61856,7 +61856,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "MIP_S_CLP1 (5136a095-5cf0-4aff-bec3-e84448b38ea5)",
-        "Service plans included (friendly names)":  "Information Protection for Office 365 – Standard (5136a095-5cf0-4aff-bec3-e84448b38ea5)"
+        "Service plans included (friendly names)":  "Information Protection for Office 365 � Standard (5136a095-5cf0-4aff-bec3-e84448b38ea5)"
     },
     {
         "Product name":  null,
@@ -62073,7 +62073,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "MIP_S_CLP1 (5136a095-5cf0-4aff-bec3-e84448b38ea5)",
-        "Service plans included (friendly names)":  "Information Protection for Office 365 – Standard (5136a095-5cf0-4aff-bec3-e84448b38ea5)"
+        "Service plans included (friendly names)":  "Information Protection for Office 365 � Standard (5136a095-5cf0-4aff-bec3-e84448b38ea5)"
     },
     {
         "Product name":  null,
@@ -62318,7 +62318,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -62717,7 +62717,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -63977,7 +63977,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -64194,7 +64194,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -64775,28 +64775,28 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "Content_Explorer (d9fa6af4-e046-4c89-9226-729a0786685d)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Premium (d9fa6af4-e046-4c89-9226-729a0786685d)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Premium (d9fa6af4-e046-4c89-9226-729a0786685d)"
     },
     {
         "Product name":  null,
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "MIP_S_CLP2 (efb0351d-3b08-4503-993d-383af8de41e3)",
-        "Service plans included (friendly names)":  "Information Protection for Office 365 – Premium (efb0351d-3b08-4503-993d-383af8de41e3)"
+        "Service plans included (friendly names)":  "Information Protection for Office 365 � Premium (efb0351d-3b08-4503-993d-383af8de41e3)"
     },
     {
         "Product name":  null,
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "MIP_S_CLP1 (5136a095-5cf0-4aff-bec3-e84448b38ea5)",
-        "Service plans included (friendly names)":  "Information Protection for Office 365 – Standard (5136a095-5cf0-4aff-bec3-e84448b38ea5)"
+        "Service plans included (friendly names)":  "Information Protection for Office 365 � Standard (5136a095-5cf0-4aff-bec3-e84448b38ea5)"
     },
     {
         "Product name":  null,
@@ -65181,7 +65181,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -65587,7 +65587,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -65979,7 +65979,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -66931,7 +66931,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -67099,7 +67099,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -67288,7 +67288,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -67596,7 +67596,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -67890,7 +67890,7 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
@@ -68163,21 +68163,21 @@
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "ContentExplorer_Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)",
-        "Service plans included (friendly names)":  "Information Protection and Governance Analytics – Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
+        "Service plans included (friendly names)":  "Information Protection and Governance Analytics � Standard (2b815d45-56e4-4e3a-b65c-66cb9175b560)"
     },
     {
         "Product name":  null,
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "MIP_S_CLP2 (efb0351d-3b08-4503-993d-383af8de41e3)",
-        "Service plans included (friendly names)":  "Information Protection for Office 365 – Premium (efb0351d-3b08-4503-993d-383af8de41e3)"
+        "Service plans included (friendly names)":  "Information Protection for Office 365 � Premium (efb0351d-3b08-4503-993d-383af8de41e3)"
     },
     {
         "Product name":  null,
         "String ID":  null,
         "GUID":  null,
         "Service plans included":  "MIP_S_CLP1 (5136a095-5cf0-4aff-bec3-e84448b38ea5)",
-        "Service plans included (friendly names)":  "Information Protection for Office 365 – Standard (5136a095-5cf0-4aff-bec3-e84448b38ea5)"
+        "Service plans included (friendly names)":  "Information Protection for Office 365 � Standard (5136a095-5cf0-4aff-bec3-e84448b38ea5)"
     },
     {
         "Product name":  null,
@@ -68733,7 +68733,7 @@
         "Service plans included (friendly names)":  "Power Automate for Power Apps per App Plan for Government (8e2c2c3d-07f6-4da7-86a9-e78cc8c2c8b9)"
     },
     {
-        "Product name":  "Power Apps per app plan (1 app or website) BD Only – GCC",
+        "Product name":  "Power Apps per app plan (1 app or website) BD Only � GCC",
         "String ID":  "Power_Apps_per_app_plan_(1_app_or_portal)_BD_Only_GCC",
         "GUID":  "816ee058-f70c-42ad-b433-d6171984ea20",
         "Service plans included":  "EXCHANGE_S_FOUNDATION (113feb6c-3fe4-4440-bddc-54d774bf0318)",
@@ -69923,7 +69923,7 @@
         "Service plans included (friendly names)":  "Flow for CCI Bots (5d798708-6473-48ad-9776-3acc301c40af)"
     },
     {
-        "Product name":  "Privacy Management – risk",
+        "Product name":  "Privacy Management � risk",
         "String ID":  "PRIVACY_MANAGEMENT_RISK",
         "GUID":  "e42bc969-759a-4820-9283-6b73085b68e6",
         "Service plans included":  "MIP_S_Exchange (cd31b152-6326-4d1b-ae1b-997b625182e6)",
@@ -72658,5 +72658,103 @@
         "GUID":  null,
         "Service plans included":  "AAD_WRKLDID_P2 (7dc0e92d-bf15-401d-907e-0884efe7c760)",
         "Service plans included (friendly names)":  "Microsoft Entra Workload ID P2 (7dc0e92d-bf15-401d-907e-0884efe7c760)"
+    },
+    {
+        "Product name":  null,
+        "String ID":  null,
+        "GUID":  null,
+        "Service plans included":  null,
+        "Service plans included (friendly names)":  null
+    },
+    {
+        "Product name":  null,
+        "String ID":  null,
+        "GUID":  null,
+        "Service plans included":  null,
+        "Service plans included (friendly names)":  null
+    },
+    {
+        "Product name":  null,
+        "String ID":  null,
+        "GUID":  null,
+        "Service plans included":  null,
+        "Service plans included (friendly names)":  null
+    },
+    {
+        "Product name":  null,
+        "String ID":  null,
+        "GUID":  null,
+        "Service plans included":  null,
+        "Service plans included (friendly names)":  null
+    },
+    {
+        "Product name":  null,
+        "String ID":  null,
+        "GUID":  null,
+        "Service plans included":  null,
+        "Service plans included (friendly names)":  null
+    },
+    {
+        "Product name":  null,
+        "String ID":  null,
+        "GUID":  null,
+        "Service plans included":  null,
+        "Service plans included (friendly names)":  null
+    },
+    {
+        "Product name":  null,
+        "String ID":  null,
+        "GUID":  null,
+        "Service plans included":  null,
+        "Service plans included (friendly names)":  null
+    },
+    {
+        "Product name":  null,
+        "String ID":  null,
+        "GUID":  null,
+        "Service plans included":  null,
+        "Service plans included (friendly names)":  null
+    },
+    {
+        "Product name":  null,
+        "String ID":  null,
+        "GUID":  null,
+        "Service plans included":  null,
+        "Service plans included (friendly names)":  null
+    },
+    {
+        "Product name":  null,
+        "String ID":  null,
+        "GUID":  null,
+        "Service plans included":  null,
+        "Service plans included (friendly names)":  null
+    },
+    {
+        "Product name":  null,
+        "String ID":  null,
+        "GUID":  null,
+        "Service plans included":  null,
+        "Service plans included (friendly names)":  null
+    },
+    {
+        "Product name":  null,
+        "String ID":  null,
+        "GUID":  null,
+        "Service plans included":  null,
+        "Service plans included (friendly names)":  null
+    },
+    {
+        "Product name":  null,
+        "String ID":  null,
+        "GUID":  null,
+        "Service plans included":  null,
+        "Service plans included (friendly names)":  null
+    },
+    {
+        "Product name":  null,
+        "String ID":  null,
+        "GUID":  null,
+        "Service plans included":  null,
+        "Service plans included (friendly names)":  null
     }
-    ]
+]
